@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "progress-tracker-diary",
-    "slug": "progress-tracker-diary",
-    "version": "1.0.0",
+    "name": "kairo",
+    "slug": "kairo",
+    "version": "0.0.1",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "progresstrackerdiary",
+    "scheme": "kairo",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
@@ -43,6 +43,13 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
-    }
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "728cf445-6922-41a5-8d46-f9283f6b04a8"
+      }
+    },
+    "owner": "ivaintwc"
   }
 }
