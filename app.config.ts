@@ -1,15 +1,15 @@
 import { ConfigContext, ExpoConfig } from "expo/config";
 import { version } from "./package.json";
 
-const NAME = "Kairo";
+export const NAME = "Kairo";
 const OWNER = "ivaintwc";
-const SLUG = "kairo";
-const SCHEME = "kairo";
-const PACKAGE_NAME = "com.ivaintwc.kairo";
-const BUNDLE_IDENTIFIER = "com.ivaintwc.kairo";
+export const SLUG = "kairo";
+export const SCHEME = "kairo";
+export const PACKAGE_NAME = "com.ivaintwc.kairo";
+export const BUNDLE_IDENTIFIER = "com.ivaintwc.kairo";
 
-const ICON = "./assets/images/icon.png";
-const SPLASH_ICON = {
+export const ICON = "./assets/images/icon.png";
+export const SPLASH_ICON = {
   image: "./assets/images/splash-icon.png",
   imageWidth: 200,
   resizeMode: "contain",
